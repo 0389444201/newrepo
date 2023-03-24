@@ -1,0 +1,7 @@
+Name: user-api
+Host: 0.0.0.0
+Port: 8888
+Datasource: root:my-secret-pw@tcp(127.0.0.1:3306)/user?charset=utf8mb4&parseTime=True&loc=Local
+Auth:
+  AccessSecret: 1234567891012345678910123456789q
+  AccessExpire: 9000
